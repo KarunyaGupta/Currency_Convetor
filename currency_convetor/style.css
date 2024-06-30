@@ -1,0 +1,85 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/heap-chocolate-coins_23-2147748111.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1718496000&semt=ais_user");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+.heading {
+	font-family: 'Times New Roman', Times, serif;
+	margin: 35px auto 20px;
+    font-style: italic;
+}
+
+hr {
+	border-top: 2px solid black;
+	width: 40%;
+	margin-bottom: 55px;
+}
+
+.finalValue{
+    color:black;
+    font-weight: bold;
+    font-style:normal;
+}
+
+.main {
+	width: 50vw;
+	margin: auto;
+	padding: 30px;
+	border-radius: 5px;
+	background-color: transparent;
+	
+}
+
+.form-group{
+    color:white;
+}
+
+label {
+	font-size: 20px;
+}
+
+.btn {
+	width: 200px;
+}
+
+#finalAmount {
+	font-family: 'Lobster', cursive;
+	display: none;
+	margin: 50px auto;
+}
+
+#finalAmount h2 {
+	font-size: 50px;
+}
+
+.finalValue {
+	font-family: 'Amiri', serif;
+}
+
+@media (max-width: 768px) {
+	hr {
+		width: 60%;
+	}
+
+	.main {
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.heading {
+		font-size: 60px;
+	}
+
+	hr {
+		width: 75%;
+	}
+
+	#finalAmount h2,
+	.finalValue {
+		font-size: 40px;
+	}
+}
